@@ -12,10 +12,20 @@
 }
 
 .maintwo{
-    width: 100%; 
+    width: 100%;
+    align-items: center; 
 }
 
-@media screen and (min-width:320px) and (max-width:425px) {
+.success{
+    background-color: brown;
+}
+
+
+
+
+
+
+@media screen and (min-width:320px)  {
     .main{
         width: 100%;
         height: 100px;
@@ -23,7 +33,8 @@
     }
     
     .maintwo{
-        width: 100%; 
+        width: 100%;
+        justify-content: center; 
     }
 }
 
@@ -37,6 +48,7 @@
     .maintwo{
         width: 100%;
         display: none; 
+        justify-content: center;
     }
 }
 
@@ -46,10 +58,12 @@
         height: 100px;
         display: flex;
         font-size: 4rem;
+        border: 5px solid green;
     }
     
     .maintwo{
         width: 100%;
-        display: none; 
+        display: none;
+        justify-content: center;
     }
 }
